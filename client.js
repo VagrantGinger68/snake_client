@@ -13,6 +13,9 @@ const connect = function () {
   conn.on("connect", () => {
     console.log("Successfully connected to server!");
     conn.write("Name: RJS");
+    // setInterval(() => {
+    //   conn.write("Move: up");
+    // }, 50);
 
   });
 
